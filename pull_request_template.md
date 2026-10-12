@@ -6,10 +6,11 @@
 <!-- Jira -->
 
 ## Changes
-- [ ] Source code
+- [ ] Frontend (dashboard)
+- [ ] Backend (data)
 - [ ] Docs
-- [ ] Infra
-- [ ] Deploy
+- [ ] Infra / deploy (tofu, CI/CD, Docker)
+- [ ] Config / secrets
 
 ---
 
