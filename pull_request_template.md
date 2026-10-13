@@ -1,11 +1,11 @@
-## Summary
+## Summary :clipboard:
 <!-- Handmatig geschreven -->
 
 
-## Ticket number
+## Ticket number :link:
 <!-- Jira -->
 
-## Changes
+## Changes :construction:
 - [ ] Frontend
 - [ ] ETL
 - [ ] Docs
@@ -14,7 +14,7 @@
 
 ---
 
-## How to test
+## How to test :test_tube:
 <!-- Lokaal testen -->
 
 ```bash
@@ -27,11 +27,11 @@ just docker-build
 
 ---
 
-## Checklist
+## Checklist :memo:
 - [ ] Zelf lokaal getest
-- [ ] Tests succesvol gerund
-- [ ] Linter / checks / `tofu plan`
-- [ ] README / AGENTS / docs geupdatet
+- [ ] Tests :white_check_mark:
+- [ ] Pre-commit :white_check_mark: (Linter / checks / `tofu plan`)
+- [ ] README / AGENTS / docs geupdatet 
 - [ ] Roborev (Opus) review
 - [ ] Code gelezen
 - [ ] PR is zo klein mogelijk voor functionaliteit (niet twee functionaliteiten in 1 pr)
@@ -44,5 +44,5 @@ just docker-build
 
 ---
 
-## Bewuste afwijkingen van Roborev (High/Med)
+## Bewuste afwijkingen van Roborev (High/Med) :warning:
 <!-- Beschrijf welke High/Medium-bevindingen bewust niet zijn opgevolgd en waarom -->
