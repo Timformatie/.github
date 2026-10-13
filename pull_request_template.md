@@ -6,8 +6,8 @@
 <!-- Jira -->
 
 ## Changes
-- [ ] Frontend (dashboard)
-- [ ] Backend (data)
+- [ ] Frontend
+- [ ] ETL
 - [ ] Docs
 - [ ] Infra / deploy (tofu, CI/CD, Docker)
 - [ ] Config / secrets
@@ -19,22 +19,28 @@
 
 ```bash
 just checkout <branch>
-just run <app> 
+just run <app>
 ```
-
-- [ ] Docker build testen
-
-**Welke secrets zijn nodig?**
-<!-- Hoe heten ze en waar kan je ze vinden? -->
+```bash
+just docker-build
+```
 
 ---
 
 ## Checklist
-- [ ] Tests
+- [ ] Zelf lokaal getest
+- [ ] Tests succesvol gerund
 - [ ] Linter / checks / `tofu plan`
 - [ ] README / AGENTS / docs geupdatet
 - [ ] Roborev (Opus) review
 - [ ] Code gelezen
+- [ ] PR is zo klein mogelijk voor functionaliteit (niet twee functionaliteiten in 1 pr)
+- [ ] Jira ticket aan PR gekoppeld 
+
+### Indien van toepassing
+- [ ] Versie upgrade 
+- [ ] Secrets toegevoegd / IAM rollen aangepast.
+- [ ] Confluence geüpdatet (business context, roadmap, non-technische documentation).
 
 ---
 
