@@ -34,8 +34,6 @@ just docker-build
 - [ ] pre-commit runs successful
 - [ ] Documentation updated where needed (readme, confluence, jira ticket, agent docs)
 - [ ] Jira ticket connected to PR
-- [ ] Version upgraded
-- [ ] Secrets added in secrets manager
 - [ ] Roborev (Opus) ran and findings fixed or deviated with description below.   
 
 
