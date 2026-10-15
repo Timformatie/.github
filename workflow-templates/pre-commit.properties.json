@@ -1,0 +1,7 @@
+{
+    "name": "pre-commit",
+    "description": "Draait de pre-commit hooks uit .pre-commit-config.yaml op elke PR en push naar de default branch.",
+    "iconName": "octicon check-circle",
+    "categories": ["Python"],
+    "filePatterns": [".pre-commit-config.yaml$"]
+}
