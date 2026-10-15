@@ -28,21 +28,19 @@ just docker-build
 ---
 
 ## Checklist :memo:
-- [ ] Zelf lokaal getest
-- [ ] Tests :white_check_mark:
+- [ ] PR has one single purpose
+- [ ] Developer read and understood code in PR
+- [ ] Local Tests :white_check_mark:
 - [ ] Pre-commit :white_check_mark: (Linter / checks / `tofu plan`)
-- [ ] README / AGENTS / docs geupdatet 
-- [ ] Roborev (Opus) review
-- [ ] Code gelezen
-- [ ] PR is zo klein mogelijk voor functionaliteit (niet twee functionaliteiten in 1 pr)
-- [ ] Jira ticket aan PR gekoppeld 
+- [ ] Documentation up-to-date (README.md, confluence, jira ticket, AGENTS.md)
+- [ ] Roborev (Opus) 
+- [ ] Jira ticket connected to PR
 
-### Indien van toepassing
-- [ ] Versie upgrade 
-- [ ] Secrets toegevoegd / IAM rollen aangepast.
-- [ ] Confluence geüpdatet (business context, roadmap, non-technische documentation).
+### If applicable
+- [ ] Version upgraded
+- [ ] Secrets added in secrets manager
 
 ---
 
-## Bewuste afwijkingen van Roborev (High/Med) :warning:
+## Deviations from Roborev (High/Med) :warning:
 <!-- Beschrijf welke High/Medium-bevindingen bewust niet zijn opgevolgd en waarom -->
