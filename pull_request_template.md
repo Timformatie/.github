@@ -28,13 +28,14 @@ just docker-build
 ---
 
 ## Checklist :memo:
-- [ ] PR has one single purpose
+- [ ] PR has single purpose
 - [ ] Developer read and understood code in PR
-- [ ] Local Tests :white_check_mark:
-- [ ] Pre-commit :white_check_mark: (Linter / checks / `tofu plan`)
-- [ ] Documentation up-to-date (README.md, confluence, jira ticket, AGENTS.md)
-- [ ] Roborev (Opus) 
+- [ ] Local tests runs successful
+- [ ] pre-commit runs successful
+- [ ] Documentation updated where needed (readme, confluence, jira ticket, agent docs)
 - [ ] Jira ticket connected to PR
+- [ ] Roborev (Opus) ran and findings fixed or deviated with description below.   
+
 
 ### If applicable
 - [ ] Version upgraded
